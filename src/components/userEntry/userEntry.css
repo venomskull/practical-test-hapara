@@ -1,0 +1,69 @@
+.ue {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    position:relative
+}
+
+.ue-wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ue-input-wrapper {
+    flex: 1;
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ue-input, .ue-result, .ue-textarea {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.ue-button-wrapper {
+    flex: 1;
+    /* border: 2px dashed green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ue-button {
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: grey;
+}
+
+.ue-results-wrapper {
+    flex: 1;
+    /* border: 1px solid grey; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
